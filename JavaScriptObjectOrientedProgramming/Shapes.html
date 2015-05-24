@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shapes</title>
+	<script src="Shapes.js"></script>
+</head>
+<body>
+	<canvas id="myCanvas" style = "width=500px height=400px">
+	</canvas>
+	<script>
+		var rectangle = new Rectangle(1, 1,"#000000",70, 100);
+    	rectangle.draw();
+    	var circle = new Circle(140,50,"#000000",50);
+    	circle.draw();
+    	var triangle = new Triangle(240, 25, "#000000", 10, 30, 40, 15);
+    	triangle.draw();
+    	//var segment = new Segment(120,30,"#000000",40,73);
+    	//segment.draw();
+    	var point = new Point(250,10,"#000000");
+    	point.draw();
+	</script>
+</body>
+</html>
